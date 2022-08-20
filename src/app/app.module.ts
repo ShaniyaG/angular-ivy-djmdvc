@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { AppRoutingModule } from '../../app-routing-module';
 import { HomeComponent } from './home/home.component';
-import { CardComponent } from './card/card.component';
+// import { CardComponent } from './card/card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserService } from './user.service';
 import { ThemeComponent } from './theme/theme.component';
@@ -24,7 +24,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppComponent,
     HelloComponent,
     HomeComponent,
-    CardComponent,
+    // CardComponent,
     ThemeComponent,
   ],
   bootstrap: [AppComponent],
